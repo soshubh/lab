@@ -7,14 +7,11 @@ using namespace std;
 class Partners
 {
 
-private:
     int partnerid;
     double contribute_amount;
 
 public:
     static double companyfund;
-
-    Partners() {}
 
     Partners(int partnerid, double contribute_amount)
     {
@@ -46,5 +43,29 @@ public:
 
 int main()
 {
+    Partners data;
+
+
+    int ch=1;
+    while(ch!=4)
+    {
+        int input;
+        cout<<"----------------------"<<endl;
+        cout<<"choose one option"<<endl;
+        cout<<"1 - Add amount"<<endl;
+        cout<<"2 - Pay bills"<<endl;
+        cout<<"3 - Withdraw Amount"<<endl;
+        cout<<"4 - Exit"<<endl;
+        cout<<"----------------------"<<endl;
+        cout<<"Enter your choice";
+        cin>>ch;
+        switch(ch)
+        {
+             case 1;
+             cout<<"Enter the amount :";
+             ///>>dtadamount(input):
+
+
+    }
     return 0;
 }
